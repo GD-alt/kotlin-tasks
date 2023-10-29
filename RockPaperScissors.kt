@@ -80,7 +80,7 @@ fun main() {
 }
 
 fun getGameChoice(optionsParam: Array<String>) =
-    optionsParam[(Math.random() * optionsParam.size).toInt()]
+    optionsParam.random()
 
 fun getUserChoice(optionsParam: Array<String>): String {
     var userChoice: String
